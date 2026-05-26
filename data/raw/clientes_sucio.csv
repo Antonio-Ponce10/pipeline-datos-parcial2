@@ -1,0 +1,7 @@
+id_cliente,nombre,email,edad,meses_contrato,total_pago
+1001,Juan Perez,juan.perez@mail.com,34,12,450.50
+1002,Maria Gomez,,28,5,120.00
+1003,Carlos Soto,carlos.soto@mail.com,-5,24,900.00
+1004,Ana Lopez,ana.lopez@mail.com,150,1,45.00
+1001,Juan Perez,juan.perez@mail.com,34,12,450.50
+1005, Luis Rojas ,luis.rojas@mail.com,42,0,0.00

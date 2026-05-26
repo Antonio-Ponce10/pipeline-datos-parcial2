@@ -1,0 +1,33 @@
+2026-05-26 16:45:52,637 - INFO - [INGESTA] - Iniciando el proceso de ingesta desde: data/raw/clientes_sucio.csv
+2026-05-26 16:45:52,640 - INFO - [INGESTA] - Ingesta completada con éxito. Se cargaron 6 filas y 6 columnas.
+2026-05-26 16:45:52,651 - INFO - [INGESTA] - Iniciando la fase de Limpieza y Transformación...
+2026-05-26 16:45:52,653 - INFO - [INGESTA] - Se eliminaron 1 registros duplicados.
+2026-05-26 16:45:52,653 - INFO - [INGESTA] - Se estandarizó la columna 'nombre' (eliminación de espacios).
+2026-05-26 16:45:52,654 - INFO - [INGESTA] - Se imputaron 1 valores nulos en la columna 'email'.
+2026-05-26 16:45:52,654 - INFO - [INGESTA] - Se transformaron las edades negativas a valores absolutos.
+2026-05-26 16:45:52,654 - INFO - [INGESTA] - Limpieza finalizada con éxito. Registros resultantes: 5
+2026-05-26 16:52:31,786 - INFO - [INGESTA] - Iniciando el proceso de ingesta desde: data/raw/clientes_sucio.csv
+2026-05-26 16:52:31,788 - INFO - [INGESTA] - Ingesta completada con éxito. Se cargaron 6 filas y 6 columnas.
+2026-05-26 16:52:31,796 - INFO - [INGESTA] - Iniciando la fase de Limpieza y Transformación...
+2026-05-26 16:52:31,798 - INFO - [INGESTA] - Se eliminaron 1 registros duplicados.
+2026-05-26 16:52:31,798 - INFO - [INGESTA] - Se estandarizó la columna 'nombre' (eliminación de espacios).
+2026-05-26 16:52:31,798 - INFO - [INGESTA] - Se imputaron 1 valores nulos en la columna 'email'.
+2026-05-26 16:52:31,798 - INFO - [INGESTA] - Se transformaron las edades negativas a valores absolutos.
+2026-05-26 16:52:31,799 - INFO - [INGESTA] - Limpieza finalizada con éxito. Registros resultantes: 5
+2026-05-26 16:52:31,804 - INFO - [INGESTA] - Iniciando Validación Estructural y Semántica...
+2026-05-26 16:52:31,809 - WARNING - [INGESTA] - Anomalía en ID 1003: La columna 'edad' Input should be greater than or equal to 18. Registro descartado.
+2026-05-26 16:52:31,809 - WARNING - [INGESTA] - Anomalía en ID 1004: La columna 'edad' Input should be less than or equal to 100. Registro descartado.
+2026-05-26 16:56:11,676 - INFO - [INGESTA] - Iniciando el proceso de ingesta desde: data/raw/clientes_sucio.csv
+2026-05-26 16:56:11,678 - INFO - [INGESTA] - Ingesta completada con éxito. Se cargaron 6 filas y 6 columnas.
+2026-05-26 16:56:11,678 - INFO - [INGESTA] - Iniciando la fase de Limpieza y Transformación...
+2026-05-26 16:56:11,680 - INFO - [INGESTA] - Se eliminaron 1 registros duplicados.
+2026-05-26 16:56:11,681 - INFO - [INGESTA] - Se estandarizó la columna 'nombre' (eliminación de espacios).
+2026-05-26 16:56:11,681 - INFO - [INGESTA] - Se imputaron 1 valores nulos en la columna 'email'.
+2026-05-26 16:56:11,681 - INFO - [INGESTA] - Se transformaron las edades negativas a valores absolutos.
+2026-05-26 16:56:11,682 - INFO - [INGESTA] - Limpieza finalizada con éxito. Registros resultantes: 5
+2026-05-26 16:56:11,682 - INFO - [INGESTA] - Iniciando Validación Estructural y Semántica...
+2026-05-26 16:56:11,683 - WARNING - [INGESTA] - Anomalía en ID 1003: La columna 'edad' Input should be greater than or equal to 18. Registro descartado.
+2026-05-26 16:56:11,683 - WARNING - [INGESTA] - Anomalía en ID 1004: La columna 'edad' Input should be less than or equal to 100. Registro descartado.
+2026-05-26 16:56:11,684 - INFO - [INGESTA] - Iniciando carga de datos en la base de datos: data/processed/clientes.db...
+2026-05-26 16:56:11,701 - INFO - [INGESTA] - Carga exitosa. Se insertaron 3 registros en la tabla 'clientes_validados'.
+2026-05-26 16:56:11,702 - INFO - [INGESTA] - Conexión a la base de datos cerrada de forma segura.
