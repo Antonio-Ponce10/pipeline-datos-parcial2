@@ -10,13 +10,10 @@ logging.basicConfig(
 )
 
 def ejecutar_ingesta(ruta_origen: str) -> pd.DataFrame:
-    """
-    Lee el archivo CSV de la fuente original de manera controlada.
-    Aplica principios DataOps de trazabilidad y manejo de excepciones.
-    """
+    # Leo el archivo csv y lo paso a un dataframe
     logging.info(f"Iniciando el proceso de ingesta desde: {ruta_origen}")
     
-    # Control de Excepción 1: Verificar si el archivo realmente existe
+    #  Verificar si el archivo realmente existe
     if not os.path.exists(ruta_origen):
         error_msg = f"Error crítico: El archivo en '{ruta_origen}' no existe."
         logging.error(error_msg)
