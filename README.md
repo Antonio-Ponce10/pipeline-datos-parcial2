@@ -1,6 +1,6 @@
 # 🚀 Pipeline de Datos Automatizado - Evaluación Parcial 2
 
-**Asignatura:** ITY1101 - Gestión de Datos para IA  
+**Asignatura:** Gestión de Datos para IA  
 **Autor:** Antonio Ponce  
 
 ---
